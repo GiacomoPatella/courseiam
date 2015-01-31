@@ -9,6 +9,7 @@
 .gmap {
     width: 100%;
 }
+
 iframe {
     height:inherit;
     width:inherit;
@@ -21,8 +22,39 @@ iframe {
   margin-bottom: 1rem;
 }
 
+.secure {
+  margin-left: 3rem;
+}
+.secure-spot {
+  margin-bottom: 0.5rem;
+}
 
-/*overriding semantic.css*/
+
+.ui.massive.button.book-now {
+  font-size: 1.4rem;
+  width: 16rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  background: #F5B286;
+  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.50);
+  border-radius: 2px;
+}
+
+.fixed.launch.button {
+position: fixed;
+top: 40px;
+left: -1px;
+width: 40px;
+height: auto;
+white-space: nowrap;
+overflow: hidden;
+}
+
+/*============================
+
+  Overriding semantic.css
+
+============================*/
 
 .ui.grid > .column:not(.row) {
 padding-top: 2rem;
@@ -43,19 +75,14 @@ padding-right: 2rem;
   box-shadow: none;
 }
 
-.ui.massive.button.book-now {
-  font-size: 1.4rem;
-  padding-top: 1.8rem;
-  padding-bottom: 1.8rem;
-  background: #F5B286;
-  box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.50);
-  border-radius: 2px;
-}
-
 .ui.attached.header.address {
   background-color: #D2CA72;
 }
 
 .ui.vertical.menu.__details {
   background-color: #70B7BA;
+}
+
+.ui.items > .item > .image:not(.ui) {
+width: 200px;
 }
