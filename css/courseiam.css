@@ -1,3 +1,7 @@
+body.pushable > .pusher {
+  background-color: #eee;
+}
+
 .__gold {
   background-color: #D2CA72;
 }
@@ -49,6 +53,10 @@ height: auto;
 white-space: nowrap;
 overflow: hidden;
 }
+
+/*img.hidden.content {
+  opacity: 0.8;
+}*/
 
 /*============================
 

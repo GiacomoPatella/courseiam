@@ -11659,7 +11659,7 @@ $.fn.sidebar.settings = {
   context           : 'body',
   exclusive         : false,
   closable          : true,
-  dimPage           : true,
+  dimPage           : false,
   scrollLock        : false,
   returnScroll      : false,
   delaySetup        : false,
