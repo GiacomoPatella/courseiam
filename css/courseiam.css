@@ -1,6 +1,3 @@
-body.pushable > .pusher {
-  background-color: #eee;
-}
 
 .__gold {
   background-color: #D2CA72;
@@ -24,6 +21,10 @@ iframe {
   border: 0;
   background-color: transparent;
   margin-bottom: 1rem;
+}
+
+.column.__blue {
+  height: 100vh;
 }
 
 .secure {
@@ -54,15 +55,49 @@ white-space: nowrap;
 overflow: hidden;
 }
 
-/*img.hidden.content {
-  opacity: 0.8;
-}*/
+
+/*============================
+
+      prov-page.html
+
+============================*/
+
+.ui.grid.prov > .row {
+  padding: 0;
+}
+
+.prov-header {
+  background: url(../img/baking.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  width: 100%;
+  height: 250px;
+  top: 200px;
+}
+
+#prov-right {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+
+#prov-left {
+  height: 100vh;
+}
+
+
 
 /*============================
 
   Overriding semantic.css
 
 ============================*/
+
+body.pushable > .pusher {
+  background-color: #eee;
+}
 
 .ui.grid > .column:not(.row) {
 padding-top: 2rem;
